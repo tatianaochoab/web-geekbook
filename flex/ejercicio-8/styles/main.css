@@ -1,0 +1,150 @@
+h1{
+    color:  #ff6600;
+}
+
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #050505;
+    color: #ff6600;
+    height: 60px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;   
+    align-content: center;
+    align-items: flex-start;
+}
+
+.header-0{
+    width: 71%;
+    text-align: start;  
+}
+
+.header-1{
+    height: 90%;
+    font-size: 100%;
+    align-items: flex-start;
+
+    flex: 0 1 60%;
+
+    display: flex;
+    justify-content: start;
+}
+
+.header-2{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}
+
+.header-3{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}
+
+.header-4{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}
+.main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.main-1{
+    height: 50px;
+
+    align-items: center;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.main-1-1{
+    width: 35%;
+    font-size: 70%;
+}
+
+.main-1-2{
+    width: 35%;
+    font-size: 70%;
+    text-align: end;
+}
+
+.main-2{
+    height: 100%;
+
+    align-items: center;
+
+    display: flex;
+    flex-flow: colum wrap;
+}
+
+.main-2-1{
+    width: 70%;
+    text-align: center;
+    align-self: center;
+}
+
+.main-2-2{
+    height: 100px;
+    font-size: 80%;
+    align-self: flex-end;
+    align-items: center;
+}
+
+.footer{
+    border-top: solid 2px #ff6600;
+    border-bottom: solid 2px #ff6600;
+    color: #ff6600;
+    height: 60px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;   
+    align-content: center;
+    align-items: flex-start;
+}
+
+.footer-0{
+    width: 71%;
+    text-align: start;
+}
+
+.footer-1{
+    height: 90%;
+    font-size: 80%;
+    align-items: flex-start;
+
+    flex: 0 1 60%;
+
+    display: flex;
+    justify-content: start;
+}
+
+.footer-2{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}
+
+.footer-3{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}
+
+.footer-4{
+    height: 90%;
+    font-size: 80%;
+    flex: 1 1;
+}

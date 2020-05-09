@@ -1,0 +1,40 @@
+#contenedor{
+    background-color: #dee9e7;
+    max-width: 500px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+#contenedor #formulario{
+    background-color: #dee9e7;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;  
+}
+
+#contenedor #formulario input, fieldset{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#contenedor #formulario label{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+
+#email, #contraseña, #nacimiento, #comentario, fieldset{
+    width: 100%;
+}
+
+#span-terminos{
+    padding: 10px;
+    width: 100%;
+}
+

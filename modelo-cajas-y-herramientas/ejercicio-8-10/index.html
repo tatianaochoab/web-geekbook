@@ -1,0 +1,82 @@
+<!--    Wikipedia.org
+1. Cambiar el color de los enlaces a naranja
+2. Sobre los idiomas destacados que aparecen sobre la imagen de la pelota de Wikipedia, añadir uno falso
+3. Explicar cómo están compuestos estos módulos de idioma
+4. Explicar cómo están colocados
+5. Examinar la versión de tablet de Wikipedia
+6. Examinar la versión de móvil de Wikipedia
+7. Averiguar las dimensiones de la caja de búsqueda y
+   * Cuánto tiene de separación con el botón de buscar
+   * ¿Qué hay de raro con esa separación?
+8. Averiguar el peso total de la página principal de Wikipedia
+9. Averiguar cuánto ha tardado en cargar la página
+10. Averiguar cuántas imágenes usa la página principal de Wikipedia-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Wikipedia.org</title>
+    <link rel="stylesheet" href="/web-geekbook/modelo-cajas-y-herramientas/ejercicio-8-10/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>ANÁLISIS DE WIKIPEDIA.ORG</h1>
+    </header>
+    <main>
+        <div>
+            <h3>Cambiar el color de los enlaces a naranja</h3>
+            <img src="/web-geekbook/modelo-cajas-y-herramientas/ejercicio-8-10/Images/orange-links.png"
+                alt="Enlaces cambio a anaranjado" class="links-orange">
+        </div>
+        <div>
+            <h3>Sobre los idiomas destacados que aparecen sobre la imagen de la pelota de Wikipedia, añadir uno falso
+            </h3>
+            <img src="/web-geekbook/modelo-cajas-y-herramientas/ejercicio-8-10/Images/new-language.png" alt="Idioma falso"
+                class="new-language">
+        </div>
+        <div>
+            <h3>Explicar cómo están compuestos estos módulos de idioma</h3>
+            <p>Los módulos de idioma estan compuestos por una etiqueta "div" donde hay un selector tipo clase
+                adicionalmete se especifican los atributos de idioma "lang" y de direccionaldad de texto "dir" </p>
+            <p>Dentro de esta etiqueta podemos encontrar la etiqueta "a" que es la encargada de crear enlaces, en esta
+                podemos encontrar selectores tipo identificador y clase.</p>
+            <p>Por ultimo se encuentran las etiquetas "strong" y "small" las cuales son las encargadas de hacer que el
+                texto represente una importancia y hacer ver el texto un poco mas pequeño respectivamente. Dentro de
+                small se encuentra la etiqueta "span" en canrgada de aplicar estilo al texto y agrupar elementos en
+                línea. </p>
+        </div>
+        <div>
+            <h3>Explicar cómo están colocados</h3>
+            <p>Los módulos de idioma están ubicados alrededor de una imagen central ícono de Wikipedia; en cada módulo se muestra cuantos articulos se pueden encontrar en ese idioma.</p>
+        </div>
+        <div>
+            <h3>Examinar la versión de tablet y de móvil de Wikipedia</h3>
+            <p>Se puede observar que Wikipedia se adapta a cualquier versión mostrando siempre toda la información propuesta, en el caso de la versión móvil los módulos de idiomas se ubican en posición de tabla y la imagen principal disminuye su tamaño, a esta caracteristica de adaptación se le conoce como Responsive.</p>
+        </div>
+        <div>
+            <h3>Averiguar las dimensiones de la caja de búsqueda</h3>
+            <p>De ancho tiene 540px, además, tiene aplicada la propiedad max-width la cual establece ciertas restrcciones al tamaño haciendo que este no lo exceda.
+            Esta caja de búsqueta esta compuesta por una entrada de busqueda y un botón de búsqueda  </p>
+            <ol>
+                <li>Cuánto tiene de separación con el botón de buscar</li>
+                <p>padding-block-start: 0.35em;
+                    padding-inline-start: 0.75em;
+                    padding-inline-end: 0.75em;
+                    padding-block-end: 0.625em; </p>
+                <li>¿Qué hay de raro con esa separación?</li>
+                <p>Desde mi punto de vista lo raro es que están las propiedades inline y block por aparte y cada una influye en las caracteristicas del botón, de igual manera observo que la propiedad padding: block es dominante sobre la pading: inline</p>
+            </ol>
+            <h3>Averiguar el peso total de la página principal de Wikipedia</h3>
+            <p>Su peso total es de 151 KB</p>
+            <h3>Averiguar cuánto ha tardado en cargar la página</h3>
+            <p>Tarda en cargar 300 ms</p>
+            <h3>Averiguar cuántas imágenes usa la página principal de Wikipedia</h3>
+            <p>La página pricipal usa 3 tipos de imágenes</p>
+        </div>
+    </main>
+</body>
+
+</html>

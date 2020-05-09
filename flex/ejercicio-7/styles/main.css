@@ -1,0 +1,141 @@
+h3 h4{
+    text-align: left;
+}
+
+.image-1{
+    width: 140px;
+    height: 140px;
+    border: solid 2px #afd4d2;
+    background: #afd4d2;
+    border-radius: 5px;
+}
+
+.container{
+    max-width: 840px;
+    height: 100%;
+
+    display: flex;
+    flex-flow: row nowrap ;
+    justify-content: space-evenly;
+    align-items: space-around;
+}
+
+.item{
+    flex: 1 1 auto
+}
+
+.item-1{
+    min-width: 150px;
+    max-width: 150px;
+   
+}
+
+.item-2{ /*centro*/
+    flex-grow: 6;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;    
+}
+
+.item-span-0{
+    width: 100%;
+    height: 100px;     
+}
+
+.item-2-1{ /*cita*/
+    min-width: 180px;
+    height: 40px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;   
+}
+
+.item-span-1{ /*Reservar*/
+    border: solid #afd4d2 3px;
+    border-radius: 5px;
+    width: 40%;
+    height: 75%;
+    background: #afd4d2;
+    font-size: 78%;
+    
+
+    align-self: center;
+    
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.item-span-2{ /*presupuesto*/
+    border: solid #afd4d2 3px;
+    border-radius: 5px;
+    width: 50%;
+    height: 75%;
+    font-size: 78%;
+
+    align-self: center;
+    
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.item-3{
+    min-width: 160px;
+    max-width: 160px;
+    flex-shrink: 3;
+
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-evenly;    
+}
+
+.item-3-1{
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.item-3-2{
+
+    display: flex;
+    flex-flow: column;    
+}
+
+.item-span-3{
+    width: 40px;
+    height: 40px;
+    background: #afd4d2;
+    border-radius: 5px; 
+    text-align: center; 
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;    
+}
+
+.item-div{ /*imagen*/
+    width: 35px;
+    height: 40px;  
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;    
+}
+
+.item-span-4{
+    width: 100%;   
+}
+
+.item-span-5{
+    width: 100%;
+}    
+
+
+
+
+

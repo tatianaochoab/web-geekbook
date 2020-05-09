@@ -1,0 +1,26 @@
+.container{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 12(1fr);
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+.header{
+    background: rgb(235, 50, 66);
+    grid-column: span 12;
+}
+
+.nav{
+    background: #50d7db;
+    grid-column: span 4;
+}
+
+.content{
+    background: #b4ec31;
+    grid-column: span 8;
+}
+
+.footer{
+    background: #6712c9;
+    grid-column: span 12;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Henny+Penny&display=swap');
+
+h2{
+    text-align: center;
+    font-family: 'Henny Penny', cursive;
+
+}
+
+p{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    color: #530714;
+}
+
+.container{
+    max-width: 960px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+        
+}
+
+.item{
+
+    flex: 1 1 100%;
+}
+
+.item-header{
+    background: #fa865c;
+    height: 100%;
+    width: 100%;
+
+    flex-shrink: 3;
+}
+
+.item-main{
+
+    flex-grow: 4;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.item-aside-1{
+    background: #75f0df;
+
+    order: 1;
+    flex-shrink: 2;
+}
+
+.item-aside-2{
+    background: #c0e974;
+
+    order: 3;
+    flex-shrink: 2;
+}
+
+.item-article{
+background: #ff8a94;
+
+    order: 2;
+    flex-grow: 4;
+    
+}
+
+.item-footer{
+background: #87b6ec;
+
+    height: 100%;
+    width: 100%;
+    min-width: 20px;
+
+    flex-shrink: 3;
+}

@@ -1,0 +1,29 @@
+//components
+@import './components/typography';
+
+body{
+    font-family: $font-family;
+}  
+
+.text-primary { 
+    color: $color-primary; 
+}
+
+.text-light { 
+    color: $color-light; 
+}
+
+.text-dark { 
+    color: $color-dark;
+}
+
+.text-sm{
+    font-size: 18px;
+}
+
+​.text-md {  
+    font-size: $font-size
+}
+.text-lg {  
+    font-size: 22px;  
+}

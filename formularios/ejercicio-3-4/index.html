@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="/web-geekbook/formularios/ejercicio-3-4/styles/main.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <h1>Abre una cuenta</h1>
+        <p>Es fácil y rápido</p>
+        <form id="formulario" action="">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+            <input type="text" name="email" id="email" placeholder="Ingrese su email o su número de telefono" required>
+            <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" name="nacimiento">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="mujer" value="femenino">mujer</input>
+                <input type="radio" name="sexo" id="hombre" value="masculino">hombre</input>
+                <input type="radio" name="sexo" id="personalizado" value="otro">personalizado</input>
+            </fieldset>
+            <input type="hidden" value="Chrome" id="navegador" name="navegador">
+            <label for="estatura">Estatura (cm) </label>
+            <input type="number" id="estatura" name="estatura" min="50" max="250" placeholder="150" value="cm">
+            <input type="textarea" name="comentarios" id="comentario" placeholder="Ingrese sus comentarios" rows="5"
+                columns="3">
+            <span id="span-terminos">
+                <input type="checkbox" name="terminos" id="terminos" required>Acepto terminos y condiciones</input>
+            </span>
+            <input type="reset" value="Restaurar valores por defecto">
+            <input type="submit" id="crear" value="Crear cuenta">
+
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+header{
+    text-align: center;
+}
+
+#contenedor{
+    margin: 0 auto;
+    padding: 10px;
+}
+#texto{
+    text-align: justify;
+}
+
+#cookies{
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    background:rgba(2, 61, 61, 0.8);
+    color: white;
+    z-index: 9999;
+    border: solid teal 5px;
+    border-radius: 10px;
+
+}
+
+#pie{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+#pie .nanotecnology{
+    flex: 3 1 auto;
+}
+
+#pie .redes{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-around;
+}

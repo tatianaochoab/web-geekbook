@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="/web-geekbook/formularios/ejercicio-5/styles/main.css">
+</head>
+
+<body>
+    <div id="container">
+        <form action="" method="post" id="formulario">
+            <fieldset>
+                <legend for="nombre">Nombre</legend>
+                <input type="text" id="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellido" placeholder="Apellido" required>
+            </fieldset>
+            <fieldset>
+                <legend for="usuario">Nombre de usuario</legend>
+                <input type="email" id="usuario" placeholder="@gmail.com" required>
+            </fieldset>
+            <fieldset>
+                <legend for="contrasena">Contraseña</legend>
+                <input type="password" id="contrasena" required>
+            </fieldset>
+            <fieldset>
+                <legend for="confirmar">Confirmar tu contraseña</legend>
+                <input type="password" id="confirmar" required>
+            </fieldset>
+            <fieldset>
+                <legend for="fecha">Fecha de nacimiento</legend>
+                <input type="number" name="dia" id="dia" placeholder="día" min="1" max="31" required>
+                <select name="mes" id="mes" required>
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                    <option value="marzo">Marzo</option>
+                    <option value="abril">Abril</option>
+                    <option value="mayo">Mayo</option>
+                    <option value="junio">Junio</option>
+                    <option value="julio">Julio</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="septiembre">Septiembre</option>
+                    <option value="octubre">Octubre</option>
+                    <option value="noviembre">Noviembre</option>
+                    <option value="diciembre">Diciembre</option>
+                </select>
+                <input type="number" id="ano" placeholder="año" min="1900" max="2010" required>
+            </fieldset>
+            <fieldset>
+                <legend for="sexo">Género</legend>
+                <select name="genero" id="genero">
+                    <option value="femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend for="telefono">Teléfono móvil</legend>
+                <input type="tel" id="telefono" pattern="[0-9]{7,10}" required>
+            </fieldset>
+            <fieldset>
+                <legend>Ubicación</legend>
+                <select name="pais" id="pais">
+                    <option value="">Colombia</option>
+                    <option value="">Panamá</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Ecuador</option>
+                    <option value="">Perú</option>
+                    <option value="">Brasil</option>
+                    <option value="">Chile</option>
+                    <option value="">Argentina</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Paraguay</option>
+                    <option value="">Bolivia</option>
+                </select>
+            </fieldset>
+
+            <input type="submit" id="submit" value="siguiente">
+        </form>
+    </div>
+    <script src="/web-geekbook/formularios/ejercicio-5/scripts/script.js"></script>
+</body>
+
+</html>

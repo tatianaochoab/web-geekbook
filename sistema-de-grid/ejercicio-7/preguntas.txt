@@ -1,0 +1,31 @@
+1. ¿Cuáles son los breakpoints que nos ofrece Bootstrap? 
+
+R= 
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+2. ¿Qué clase tendrá un elemento que ocupe 2 columnas en el breakpoint Small?
+
+class="container-sm"
+.col-sm-2
+
+3. ¿Qué clase tendrá un elemento que ocupe 6 columnas en el breakpoint Large?
+
+class="container-lg"
+.col-lg-6
+
+4. ¿Qué clase tendrá un elemento que ocupe 11 columnas en el breakpoint Extra Small?
+
+class="container"
+.col-11

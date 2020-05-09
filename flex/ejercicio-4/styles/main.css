@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Luckiest+Guy&display=swap');
+h1{
+    text-align: center;
+    color: teal;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h3{
+    text-align: center;
+    color: green;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    
+    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: rgb(3, 17, 80) 3px solid;
+    background: rgb(76, 121, 136);
+    width: 650px;
+    height: 680px;
+    
+    display: flex;
+    flex-direction: row; /*determina el valor de las filas o las colomnas*/
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around; /*no trabaja con nowrap*/
+}
+
+.item{
+    border: rgb(50, 150, 80) 2px solid;
+    background: white;
+    width: 280px;
+    height: 250px;
+    
+    flex-grow: 1;
+    
+    
+}
+
+.item-0{
+    order: 1;
+    height: 100px;
+}
+
+

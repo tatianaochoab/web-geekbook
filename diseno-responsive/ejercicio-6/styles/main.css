@@ -1,0 +1,53 @@
+#contenedor{
+    margin: 20px;
+    width: 320px;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+@media all and (min-width:768px) {
+
+    #contenedor{
+    margin: 30px 40px 40px 40px;
+
+}
+
+h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+}
+
+@media all and (min-width: 1140px) {
+
+    #contenedor{
+    margin: 190px auto auto auto;
+    width: 750px;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+p{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+}
+}

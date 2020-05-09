@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    min-width: 480px;
+    background: red;
+}
+
+@media only screen 
+and (min-width: 480px) 
+and (max-width: 768px){
+    body{
+        background: yellow;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background: green;
+    }
+}

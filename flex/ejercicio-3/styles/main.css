@@ -1,0 +1,18 @@
+.container{
+    border: salmon solid 1px;
+    /*width: 500px;*/
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.item{
+    /*border: salmon solid 1px;*/
+    padding: 25px;
+    margin: 10px;
+}

@@ -1,0 +1,156 @@
+body{
+    max-width: 480px;
+    margin: 0;
+}
+
+#cabecera{
+    text-align: center;
+    background: #ee6060;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+#contenedor{
+    width: 100%;
+    text-align: justify;
+}
+
+#navegacion{
+    background: #eaf738;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex: row wrap;
+}
+
+#navegacion .span{
+    text-align: center;
+    width: 30%;
+}
+
+
+/*#section-principal{
+
+}*/
+
+#section-historia{
+    background: #4df8b7;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+}
+
+#section-nombre{
+    background: #ec47ad;
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px){
+    
+    body{
+        max-width: 1000px;
+    }
+
+    #contenedor{
+        width: 100%;
+        text-align: justify;
+        display: flex;
+        flex: row wrap;
+        justify-content: space-evenly;
+    }
+
+    #navegacion{
+        background: #eaf738;
+        padding: 10px;
+        height: 100px;
+        margin: 5px 0px 5px 0px;
+        display: block;
+        text-align: center;
+    }
+
+    #section-principal{
+        margin: 0px 0px 0px 5px;
+    }
+
+    #section-historia{
+        background: #4df8b7;
+        padding: 10px;
+        margin: 5px 0px 5px 0px;
+        display: flex;        
+    }
+
+    #section-historia .contenido{
+        margin: 0px 10px 0px 0px;
+        width: 60%;
+    }
+
+    #section-historia .cuadro{
+        background: #e01548;
+        width: 40%;
+    }  
+}
+
+@media only screen and (min-width: 1000px){
+
+    body{
+        max-width: 100%;
+    }
+
+    #contenedor{
+        width: 100%;
+        text-align: justify;
+        display: flex;
+        flex: column wrap;
+        justify-content: flex-start;
+    }
+
+    #navegacion{
+        background: #eaf738;
+        padding: 10px;
+        width: 20%;
+        height: 100px;
+        margin: 5px 0px 5px 0px;
+        text-align: center;
+    }
+
+    #navegacion .span{
+        text-align: center;
+        width: auto;
+    }
+
+    #section-principal{
+        margin: 0px 5px 0px 5px;
+        width: 100%;
+        display: flex;
+        flex: row wrap;
+    }
+
+    #section-historia{
+        flex: 2 3 auto;
+
+        background: #4df8b7;
+        padding: 10px;
+        margin: 5px 0px 0px 0px;
+        display: flex;        
+    }
+
+    #section-historia .contenido{
+        margin: 0px 10px 0px 0px;
+        width: 60%;
+    }
+
+    #section-historia .cuadro{
+        background: #e01548;
+        width: 40%;
+    }  
+
+    #section-nombre{
+        flex: 1 1 auto;
+    
+        width: 30%;
+        background: #ec47ad;
+        padding: 10px;
+        margin: 5px 0px 0px 5px;
+    }
+}

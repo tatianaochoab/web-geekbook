@@ -1,0 +1,8 @@
+.container{
+    max-width: 500px;
+    padding: 50px;
+}
+.icono{
+    transform: translate(450px, -60px );
+    
+}

@@ -1,0 +1,39 @@
+.div-1{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    background: #ee3477;
+
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+    
+
+}
+
+.div-2{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    background: #12aa43;
+
+    position: relative;
+    right: 150px;
+    bottom: 320px;
+}
+
+.div-3{
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+    background: #aa34dd;
+
+    position: relative;
+    left: 180px;
+    bottom: 240px;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Viewport Sample</title>
+    <style>
+        .box {
+    background: red;
+    height: 100px;
+}
+
+@media all and (min-width:550px) {
+    .box {
+        background: blue;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
+
+<!--
+    Abramos ahora las herramientas de desarrollo de Chrome y lancemos el simulador de dispositivos móviles.
+
+    ¿Qué pasa? 
+    En el simulador de dispositivos moviles no pasa nada el box siempre se ve en azul.
+    Pero al jugar con el tamaño del navegador
+    se observa que cuando el tamaño de ancho en px llega a menos de 550px el color cambia a rojo; y siempre y cuando el tamaño en ancho esté superior a 550px este permanecerá en azul
+
+    ¿Cuándo se vuelve azul?
+    se vuelve azul con un ancho de 550px en adelante
+
+    ¿Cuándo se vuelve rojo?
+    se vuelve rojo con un ancho de 549px hacia abajo
+-->

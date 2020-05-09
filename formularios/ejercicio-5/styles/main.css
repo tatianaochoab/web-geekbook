@@ -1,0 +1,48 @@
+html{
+    height: 100%;
+    margin: 0 auto;
+    background: rgb(56, 129, 113);
+}
+
+#container{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+fieldset{
+    border: none;
+}
+
+input{
+    border-radius: 3px;
+    border: solid 1px;
+    height: 20px;
+}
+
+#nombre, #apellido{
+    width: 49%;
+}
+
+#usuario, #contrasena, #confirmar, #telefono, #genero, #pais{
+    width: 99%;
+}
+
+#dia, #mes, #ano{
+    width: 32%;
+}
+
+#mes, #genero, #pais{
+    height: 25px;
+}
+
+#submit{
+    margin: 20px 15px;
+}
+
+
+
+

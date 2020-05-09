@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+
+.inline{
+    display: inline;
+    background-color: rosybrown;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: sandybrown;
+}
+
+.block{
+    display: block;
+    background-color: skyblue;
+}
+
+#image{
+    height: 100px;
+    width: 100px;
+}
+
+#image-1{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+  font-family: "Georgia", "times", serif;
+}
+
+.text-primary {
+  color: #0747a6;
+}
+
+.text-light {
+  color: #fefeff;
+}
+
+.text-dark {
+  color: #1d3c68;
+}
+
+.text-sm {
+  font-size: 18px;
+}
+
+​.text-md {
+  font-size: 16px;
+}
+
+.text-lg {
+  font-size: 22px;
+}
+/*# sourceMappingURL=main.css.map */
